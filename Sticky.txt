@@ -1,0 +1,157 @@
+
+
+Variaveis
+ 
+Tipos de dados
+-number
+-infinity
+-NaN
+
+String
+Boolean
+Null
+Undefined
+Object 
+Function
+
+Numero ?? String
+Concersao de inteiro
+Number.parseInt(n)
+
+Conversao de float
+Number.parseFloat(n)
+
+Conversao para qualquer numero
+Number(n)
+
+
+
+String ?? Numero
+String(word)
+word.ToString
+
+
+Formatando Strings
+var s = JavaScript
+"Estou aprendendo s" // ñ faz interpolacao
+'Estou aprendendo' + s // Usa concatenacao
+`Estou aprendendo ${s}` // Template String
+
+
+s.length
+s.toUpperCase()
+s.toLowerCase()
+
+
+Formatando Números
+var n = 1545.5
+
+toFixed(2) duas casa decimais
+
+
+n.toFixed(2).replace('.',',') substituindo . por ,
+
+n.toLocaleString('pt-BR', ${style: 'currency', currency: BRL})
+
+n.toLocaleString('pt-BR', ${style: 'currency', currency: 'USD'})
+
+n.toLocaleString('pt-BR', ${style: 'currency', currency: 'EUR'})
+
+OPERADORES
+Aritmetricos
+5+2=7
+5-2=3 
+5/2=2.5
+5%2=1
+5**2=25
+
+n +=
+n -=
+n *=
+n /=
+n **=
+n %=
+
+n++
+n--
+
+Relacionais
+<
+>
+>=
+<=
+==
+===  igual restrito
+!=
+!== desigual restritos
+
+
+Logicos
+! negação
+&& conjunção
+|| disjunção
+
+Ternario
+?
+:
+ media > 7 ? 'aprovado':'reprovado'
+
+DOM
+Document Obeject Model
+Arvore DOM
+window{
+Location 
+Document 
+-HTML:
+head; meta, title
+body; h p div 
+History}
+
+Selecionando
+
+Nome
+Id
+Class
+Queryselector
+
+getElementsByTagName() (Seleciona tag)
+
+getElementsById()
+
+getElementsByClass()
+
+querySelector('div.msg')
+
+
+ID #
+class .
+
+
+
+
+EVENTOS DOM
+
+search: javascript event DOM
+
+FUNÇÃO
+function acao(param){
+
+}
+
+
+
+
+Condicões
+Condição simples
+if(expressao){} else{}
+Condição Multipla
+switch(expressao){
+case valor:  
+break
+case valor:
+break
+case valor:
+default:
+break
+}
+

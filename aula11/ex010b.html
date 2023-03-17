@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificando Nacionalidade</title>
+</head>
+<body>
+    <h1>Verificar Nacionalidade</h1>
+    
+    Nacionalidade: <input type="text" id="txtnac" name="txtnac">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res"></div>
+    <script>
+        function verificar() {
+            var ango = 'Angolano'
+            var txt = window.document.querySelector('input#txtnac')
+            var res = window.document.querySelector('div#res')
+            var nac = txtnac.value
+            res.innerHTML += `<p>A tua nacionalidade actual é <strong>${ango}</strong></p>`
+            if (ango.toLocaleUpperCase != nac.toLocaleUpperCase){
+                res.innerHTML += `<p>A tua nacionalidade é <strong>${nac}</strong>. Você é <strong>Estrangeiro</strong> </p>`
+            } else{
+                `<p>Você é <strong>${ango}</strong></p>`
+            }
+            
+        }
+    </script>
+</body>
+</html>
