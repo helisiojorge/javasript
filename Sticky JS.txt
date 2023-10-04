@@ -155,3 +155,42 @@ default:
 break
 }
 
+
+
+
+CSS
+
+
+
+
+header
+	nav 
+		a link
+
+main
+	setion
+		article
+			aside
+
+
+footer
+
+
+box-level
+h1, p
+inline-level
+a
+
+display: box or inline
+
+padding(parte interna da margem)
+margin 
+outline (parte externa da margem)
+
+
+Sombra
+box-shadow
+
+vertices arredondado
+border-radius
+
